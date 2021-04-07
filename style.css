@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family:"Segoe UI","Helvetica Neue","Fira Sans","Oxygen Sans","Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+fieldset{
+    width:25%;
+    height:500px;
+    padding: 20px;
+    text-align: center;
+    margin: 60px auto 17px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(82, 100, 255);
+    box-shadow:0 6px 14px rgb(0 0 0 / 30%);;
+}
+input{
+    border: 1px solid #0073b1;
+    outline:0 ;
+    cursor: pointer;
+}
+.bnt-t{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 320px;
+    height: 25px;
+}
+.bnt-sub{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 320px;
+    height: 55px;
+    background-color: #0a66c2;
+    color: white;
+    font-weight: bold;
+}
+.bnt-sub:hover{
+    background-color: #005888;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+.row p{
+    margin-bottom: 15px;
+}
+.row2{
+    text-align: center;
+}
+a{
+    color:#0073b1;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #005888;
+    text-decoration: underline;
+}
+.rowAll{
+    background-image: url("19007.jpg");
+    background-size: cover;
+    min-height: 720px;
+}
+.row2{
+    padding-bottom: 125px;
+}
+img{
+    transition: transform 1s;
+}
+img:hover{
+    transform:rotate(360deg);
+}
+/* Page Join */
+#para p,#a{
+    padding-top: 8px;
+    font-size: 13px;
+}
